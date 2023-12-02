@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+
+.body {
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the buttons */
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+   
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: rgb(128, 255, 255); 
+}
+
+.custom-update-button {
+    background-color: #28a745; 
+}
+
+.custom-passupdate-button {
+    background-color: rgb(0, 128, 255); 
+}
+
+.custom-delete-button {
+    background-color: #dc3545;
+}
+
+
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+}
+
+.custom-button {
+    width: auto; 
+}

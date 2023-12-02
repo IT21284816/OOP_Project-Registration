@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+.container {
+    text-align: center; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; 
+}
+
+th, td {
+    border: 2px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.custom-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+.custom-button {
+    background: rgb(0, 0, 0);
+    transition: background 0.3s, color 0.3s; 
+    color: white; 
+    
+}
+
+.custom-update-button:hover {
+    backdrop-filter: blur(5px); 
+    background: rgb(128, 255, 128); 
+    color: black; 
+}
+
+.custom-delete-button:hover {
+    backdrop-filter: blur(5px); 
+    background: rgb(255, 62, 34); 
+    color: black; 
+}
+
+.custom-update-button {
+    background: #28a745;
+}
+
+.custom-delete-button {
+    background: #dc3545;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 40px; 
+}
+
+
+table td[style="font-weight: bold;"] {
+    font-weight: bold;
+}

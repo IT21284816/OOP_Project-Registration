@@ -1,0 +1,9 @@
+database-register
+table- user
+
+id (p,nn,Ai) int
+name-  varchar
+email-  varchar
+phone -varchr
+username -varchar
+password - varchar
