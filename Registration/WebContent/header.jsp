@@ -13,7 +13,7 @@
         .header {
             background-color: #0250a3;
             color: #fff;
-            padding: 20px;
+            padding: 15px;
         }
         .header a {
             color: #fff;
@@ -24,7 +24,7 @@
 <body>
 <header class="header">
     <nav class="navbar navbar-expand-md navbar-dark">
-        <a href="#">Online Banking</a>
+        <h4><a href="#">Online help desk</a></h4>
         
         <ul class="navbar-nav ml-auto">
             

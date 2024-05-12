@@ -10,6 +10,10 @@
         form {
             width: 500px;
             text-align: left;
+            margin-top: 30px;
+            padding : 30px;
+            border-radius:10px;
+            background-color: #f2f2f2;
         }
         .center-button {
             display: flex;
